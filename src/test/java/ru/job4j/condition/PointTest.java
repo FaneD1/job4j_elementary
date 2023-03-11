@@ -15,6 +15,7 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
     public void when13To24Then1Dot41() {
         double expected = 1.41;
         int x1 = 1;
@@ -25,8 +26,9 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    public void when36To60Then5() {
-        double expected = 5;
+    @Test
+    public void when36To60Then3Dot16() {
+        double expected = 3.16;
         int x1 = 3;
         int y1 = 6;
         int x2 = 6;
@@ -35,6 +37,7 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
     public void when84To91Then3Dot16() {
         double expected = 3.16;
         int x1 = 8;
